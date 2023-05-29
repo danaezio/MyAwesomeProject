@@ -37,6 +37,6 @@ void Draw()
     {
         if (cursorPosition == i) Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine($"Строка #{i+1}");
-        Console.ForegroundColor = ConsoleColor.White;
+        Console.ResetColor();
     }   
 }
